@@ -10,7 +10,7 @@ import {
 	useBreakpointValue,
 	useColorMode,
 } from '@chakra-ui/react';
-import { FaDev } from 'react-icons/fa';
+import { FaBuffer } from 'react-icons/fa';
 import { RiMoonClearLine } from 'react-icons/ri';
 import { FiSun } from 'react-icons/fi';
 
@@ -38,9 +38,9 @@ export default function Navbar() {
 							as={Link}
 							href='/'
 						>
-							<Icon boxSize='6em' as={FaDev} />
+							<Icon boxSize='6em' as={FaBuffer} />
 							<Center>
-								<Heading>Filbert Shi</Heading>
+								<Heading>Jianna Wang</Heading>
 							</Center>
 						</Flex>
 						<Center>
@@ -71,14 +71,7 @@ export default function Navbar() {
 									as={Link}
 									href='/my_work'
 								>
-									My Work
-								</Button>
-								<Button
-									bg='transparent'
-									as={Link}
-									href='/blog'
-								>
-									Blog
+									Projects
 								</Button>
 							</Flex>
 						</Center>
