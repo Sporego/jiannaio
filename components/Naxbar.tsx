@@ -50,14 +50,20 @@ export default function Navbar() {
 									as={Box}
 									leftIcon={
 										colorMode === 'light' ? (
-											<RiMoonClearLine />
-										) : (
 											<FiSun />
+										) : (
+											<RiMoonClearLine />
 										)
 									}
 									onClick={toggleColorMode}
 								>
-									Theme
+									{
+										colorMode === 'light' ? (
+											"Light Mode"
+										) : (
+											"Dark Mode"
+										)
+									}
 								</Button>
 								<Button
 									bg='transparent'
