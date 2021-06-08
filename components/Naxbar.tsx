@@ -75,7 +75,7 @@ export default function Navbar() {
 								<Button
 									bg='transparent'
 									as={Link}
-									href='/my_work'
+									href='/projects'
 								>
 									Projects
 								</Button>
