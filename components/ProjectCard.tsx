@@ -1,11 +1,11 @@
 import {} from '@chakra-ui/react'
 import Head from 'next/head'
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
 
     return(
         <>
-        <iframe src="https://chart-studio.plotly.com/~Jiaxuan/11/?share_key=T9xUB2tUXXQzegFDtiM3LP#/" width="100%" height="1000px"></iframe>
+        <iframe src={props.src} width="100%" height="480px"></iframe>
         </>
     )
 }
