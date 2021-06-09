@@ -79,6 +79,13 @@ export default function Navbar() {
 								>
 									Projects
 								</Button>
+								<Button
+									bg='transparent'
+									as={Link}
+									href='https://github.com/Jianna-tech'
+								>
+									Github
+								</Button>
 							</Flex>
 						</Center>
 					</Flex>
